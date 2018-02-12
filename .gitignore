@@ -71,3 +71,5 @@ fabric.properties
 .node_modules/
 
 # End of https://www.gitignore.io/api/webstorm
+index.js
+node_modules/
