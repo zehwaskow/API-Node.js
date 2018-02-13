@@ -1,8 +1,8 @@
-var dbConnection = require('../infra/dbConnection');
+var connectionFactory = require('../infra/connectionFactory');
 
 module.exports = (app) => {
     app.get('/produtos', (req, resp) => {
-        var connection = dbConnection();
+        var connection = connectionFactory();
         connection.query('select * from produtos', (err, result) => {
             resp.render('produtos/lista', {lista: result});
         });
