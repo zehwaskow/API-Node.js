@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.14.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianoGTZ/API-Node.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JulianoGTZ/API-Node.js/issues"
+  },
+  "homepage": "https://github.com/JulianoGTZ/API-Node.js#readme"
 }
