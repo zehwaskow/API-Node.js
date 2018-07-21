@@ -16,7 +16,7 @@
     "mysql": "^2.15.0"
   },
   "devDependencies": {
-    "nodemon": "^1.14.12"
+    "nodemon": "^1.18.3"
   },
   "repository": {
     "type": "git",
